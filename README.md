@@ -6,17 +6,17 @@ An orchestrated AI system for accelerating project development through self-impr
 
 Orchestrate-AI is designed as a self-improving infrastructure that rapidly iterates on both technology and business strategy. By establishing an early revenue stream, it aims to create a sustainable engine for growth, ensuring long-term success in the evolving AI landscape.
 
-Orchestrate-AI serves as the top-level strategic component in a larger AI ecosystem:
-- It directs [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents) for tactical execution
-- It leverages [Multi-Tiered Memory Architecture (MTMA)](https://github.com/gregmulvihill/multi-tiered-memory-architecture) for persistence and knowledge
+Orchestrate-AI is part of a larger ecosystem:
+- It provides strategic direction and task prioritization to [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents)
+- It leverages [Multi-Tiered Memory Architecture (MTMA)](https://github.com/gregmulvihill/multi-tiered-memory-architecture) for persistent memory and knowledge management
 
 ## Ecosystem Architecture
 
-Orchestrate-AI operates as the top strategic layer in a three-tier architecture:
+Orchestrate-AI functions as the strategic/business layer in a three-tier architecture:
 
 ```
 ┌─────────────────────────────────────────────────┐
-│ ORCHESTRATE-AI (THIS REPO)                      │
+│ ORCHESTRATE-AI (This Repository)                │
 │ (Strategic Orchestration & Business Logic)      │
 └────────────────────────┬────────────────────────┘
                          │
@@ -48,6 +48,18 @@ Orchestrate-AI operates as the top strategic layer in a three-tier architecture:
 - Incremental feature deployment
 - System architecture reviews
 
+## Integration Points
+
+### Integration with Automated-Dev-Agents
+- Provides high-level tasks and priorities to ADCA
+- Receives task execution status and results from ADCA
+- Sets strategic direction for development activities
+
+### Integration with MTMA
+- Uses MTMA for persistent memory across workflows
+- Stores strategic decisions and business metrics
+- Retrieves historical data for trend analysis and optimization
+
 ## Architecture
 
 The system architecture follows these design patterns:
@@ -57,22 +69,6 @@ The system architecture follows these design patterns:
 - Factory (agent creation)
 
 For a detailed view of the system architecture, see [ARCHITECTURE.md](./docs/ARCHITECTURE.md).
-
-## Integration Points
-
-### Integration with ADCA
-Orchestrate-AI directs the Automated-Dev-Agents system by:
-- Providing high-level strategic direction
-- Creating prioritized development tasks
-- Consuming results and evaluating output
-- Adapting strategy based on development progress
-
-### Integration with MTMA
-Orchestrate-AI leverages the Multi-Tiered Memory Architecture by:
-- Storing strategic knowledge for long-term planning
-- Maintaining persistent state across sessions
-- Accessing historical data for trend analysis
-- Supporting continuity in complex workflows
 
 ## Getting Started
 
@@ -103,14 +99,14 @@ cp .env.example .env
 npm run start
 ```
 
-## Related Projects
-
-- [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents) - Specialized agent framework for automating development tasks
-- [Multi-Tiered Memory Architecture (MTMA)](https://github.com/gregmulvihill/multi-tiered-memory-architecture) - Memory system for persistent knowledge and context
-
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for guidelines.
+
+## Related Projects
+
+- [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents) - The tactical execution layer that implements specialized agents for development tasks
+- [Multi-Tiered Memory Architecture (MTMA)](https://github.com/gregmulvihill/multi-tiered-memory-architecture) - The memory system that enables persistence and knowledge sharing
 
 ## License
 
