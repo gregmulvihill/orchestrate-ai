@@ -1,5 +1,10 @@
 # Orchestrate-AI
 
+[![CogentEcho.ai](https://img.shields.io/badge/CogentEcho.ai-Ecosystem-blue)](https://github.com/topics/cogentecho-ai)
+[![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange)](https://github.com/gregmulvihill/orchestrate-ai)
+[![Strategic Layer](https://img.shields.io/badge/Type-Strategic%20Layer-green)](https://github.com/gregmulvihill/orchestrate-ai)
+[![License](https://img.shields.io/github/license/gregmulvihill/orchestrate-ai)](LICENSE)
+
 > **⚠️ PRE-ALPHA WARNING ⚠️**  
 > This project is in pre-alpha stage. The content has been created conceptually but has not been tested. Proceed with caution as significant changes may occur before the first stable release.
 
@@ -116,6 +121,7 @@ npm run start
 
 - [Automated-Dev-Agents](https://github.com/gregmulvihill/automated-dev-agents) - Specialized agent framework for executing development tasks
 - [Multi-Tiered Memory Architecture](https://github.com/gregmulvihill/multi-tiered-memory-architecture) - Memory system for persistence and knowledge sharing
+- [MCP Manager](https://github.com/gregmulvihill/mcp-manager) - Tool for managing MCP servers in the ecosystem
 
 ## Contributing
 
