@@ -4,6 +4,7 @@
 [![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange)](https://github.com/gregmulvihill/orchestrate-ai)
 [![Strategic Layer](https://img.shields.io/badge/Type-Strategic%20Layer-green)](https://github.com/gregmulvihill/orchestrate-ai)
 [![License](https://img.shields.io/github/license/gregmulvihill/orchestrate-ai)](LICENSE)
+[![Protected Branch](https://img.shields.io/badge/Main%20Branch-Protected-informational)](https://github.com/gregmulvihill/orchestrate-ai)
 
 > **⚠️ PRE-ALPHA WARNING ⚠️**  
 > This project is in pre-alpha stage. The content has been created conceptually but has not been tested. Proceed with caution as significant changes may occur before the first stable release.
@@ -116,6 +117,21 @@ cp .env.example .env
 ```bash
 npm run start
 ```
+
+## Development
+
+### Branch Protection
+
+The main branch is protected and requires pull requests with at least one approval before merging. This ensures code quality and proper review of all changes.
+
+### Development Workflow
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request for review
+5. Address any feedback
+6. Your changes will be merged after approval
 
 ## Related Projects
 
